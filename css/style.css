@@ -138,7 +138,7 @@ html {
     }
     .header .links ul li a {
         padding: 8px;
-        font-size: 15px;
+        font-size: 25px;
         padding: 5px;
     }
     .header .links ul li a:hover {
@@ -792,7 +792,7 @@ html {
     }
     .Footer .Footer-Text {
         margin-top: 80px;
-        font-size: 25px;
+        font-size: 30px;
     }
     .Footer .Footer-Text::after {
         left: 115px;
