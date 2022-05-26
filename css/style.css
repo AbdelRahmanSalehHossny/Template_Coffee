@@ -795,7 +795,6 @@ html {
     }
     .Footer .Footer-Text {
         margin-top: 80px;
-        font-size: 25px;
     }
     .Footer .Footer-Text::after {
         left: 115px;
