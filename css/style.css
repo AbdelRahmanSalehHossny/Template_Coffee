@@ -82,11 +82,14 @@ html {
     }
 }
 @media (max-width: 990px) {
+    .header {
+        padding: 2px;
+    }
     .header .logo {
-        font-size: 37px;
+        width: 34px;
     }
     .header .links i {
-        font-size: 32px;
+        font-size: 30px;
     }
     .header .links ul {
         position: absolute;
@@ -104,7 +107,7 @@ html {
         border-width: 10px;
         border-style: solid;
         border-color: transparent transparent #023047 transparent;
-        right: 0;
+        right: 0px;
         top: -20px;
     }
     .header .links:hover ul {
@@ -113,7 +116,7 @@ html {
     }
     .header .links ul li a {
         display: block;
-        padding: 20px;
+        padding: 3px;
         font-size: 27px;
         color: white;
         transition: .3s linear;
@@ -125,21 +128,21 @@ html {
         border-bottom: 2px solid white;
     }
 }
+
 @media (max-width: 768px) {
-    /* .header .logo {
-        font-size: 15px;
-    } */
+     .header .logo {
+        width: 32px;
+    } 
     .header .links i {
-        font-size: 30px;
+        font-size: 25px;
         margin-right: 6px;
     }
     .header .links ul {
         width: 200px;
     }
     .header .links ul li a {
-        padding: 8px;
         font-size: 25px;
-        padding: 5px;
+        padding: 0;
     }
     .header .links ul li a:hover {
         padding-left: 20px;
@@ -679,11 +682,11 @@ html {
         font-size: 25px;
     }
     .Contact .container form input {
-        font-size: 15px;
+        font-size: 16px;
         padding: 5px;
     }
     .Contact .container form .btn {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 /* End Contact */
@@ -792,7 +795,7 @@ html {
     }
     .Footer .Footer-Text {
         margin-top: 80px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .Footer .Footer-Text::after {
         left: 115px;
@@ -823,7 +826,7 @@ html {
         margin-top: 25px;
     }
     .Footer .Footer-Text {
-        font-size: 10px;
+        font-size: 15px;
         margin-bottom: 30px;
     }
     .Footer .Footer-Text::after {
